@@ -12,5 +12,6 @@ bool APE::Initialize() {
 }
 
 void APE::Deinitialize() {
+  // Deinitialize SDL2
   SDL_Quit();
 }
