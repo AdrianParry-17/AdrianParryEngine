@@ -2,7 +2,7 @@
 #define __APE_H__
 
 namespace APE {
-  /// @brief Initialize the APE, must call before using the APE. If this fail,
+  /// @brief Initialize the APE, must call before using the APE. If this fails,
   /// you shouldn't continue using the APE.
   /// @return true on success, false on failure.
   bool Initialize();
