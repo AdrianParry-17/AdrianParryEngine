@@ -1,6 +1,8 @@
 #ifndef __APE_H__
 #define __APE_H__
 
+#include "APE_Window.h"
+
 namespace APE {
   /// @brief Initialize the APE, must call before using the APE. If this fails,
   /// you shouldn't continue using the APE.
