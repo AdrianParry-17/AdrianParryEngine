@@ -9,7 +9,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_library(APE SHARED
     src/APE.cpp
     src/APE_Window.cpp
-    
+    src/APE_Structure.cpp
+
     # Game Engine source code will be added here.
 )
 
