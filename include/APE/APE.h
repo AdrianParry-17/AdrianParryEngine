@@ -2,6 +2,7 @@
 #define __APE_H__
 
 #include "APE_Window.h"
+#include "APE_Application.h"
 
 namespace APE {
     /// @brief Initialize the APE, must call before using the APE. If this fails,

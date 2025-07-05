@@ -10,6 +10,7 @@ add_library(APE SHARED
     src/APE.cpp
     src/APE_Window.cpp
     src/APE_Structure.cpp
+    src/APE_Application.cpp
 
     # Game Engine source code will be added here.
 )

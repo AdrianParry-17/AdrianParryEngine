@@ -5,6 +5,9 @@ int main() {
     if (!APE::Initialize())
         return 1;
 
+    // Run the application
+    APE::Application::Start();
+
     // Deinitialize the APE.
     APE::Deinitialize();
     
